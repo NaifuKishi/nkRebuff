@@ -1,0 +1,43 @@
+nkRBSetMain = { 
+	index	= 	{
+					name = "string",
+					role = number,
+					trigger = 	{	active = boolean,
+									sType = "string", buff, debuff, cooldown
+									sId = "string",
+									unitType = "string", player, player.pet, player.target, focus
+									unitTypeKey = "string", type aus Inspect.Unit.Detail - persistenter unit type, beginnt mit "addonType"
+									unitName = "string", name der unit,
+									cdType = "string", cooldownABILITY, cooldownITEM,
+									showIfActive = boolean,
+									stackTrigger = "string", greater, equal, lower, na
+									stackCounter = number
+								},
+					icons =		{	uiId, persistente ID des ui Objekts wenn das Icon des Triggers gebaut wird
+									... iconDefaults Optik
+								}
+				}
+}
+
+nkRBSetSub = { 
+	index	= 	{
+					name = "string",
+					trigger = 	{
+								},
+					icons =		{
+								}
+				}
+}
+
+nkRBCache = {
+	id = { trigger.unitTypeKey or trigger.unitType .. "-" .. trigger.sType .. "-" .. trigger.sId
+			duration = number,
+			stack = number,
+			icon = "string",
+			name = "string",
+			description = "string",
+			caster = "string",
+			ability = "string"
+		}
+	
+}

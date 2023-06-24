@@ -1,0 +1,59 @@
+------------------------------------------------------------------------
+r330 | naifu | 2016-11-26 12:54:40 +0000 (Sat, 26 Nov 2016) | 1 line
+Changed paths:
+   A /tags/V4.1.2 (from /trunk:329)
+
+Tagging as V4.1.2
+------------------------------------------------------------------------
+r329 | naifu | 2016-11-26 12:32:10 +0000 (Sat, 26 Nov 2016) | 1 line
+Changed paths:
+   M /trunk/RiftAddon.toc
+   M /trunk/analyzer.lua
+   M /trunk/config/exchange.lua
+   M /trunk/config/iconDefaults.lua
+   M /trunk/config/iconedit.lua
+   M /trunk/config/settings.lua
+   M /trunk/config/trigger.lua
+   M /trunk/icons/icon.lua
+   M /trunk/icons/infoBlock.lua
+   M /trunk/main.lua
+
+fixed all the areas where the standard ui elements where used instead of nk elements
+------------------------------------------------------------------------
+r327 | naifu | 2016-11-25 17:59:28 +0000 (Fri, 25 Nov 2016) | 1 line
+Changed paths:
+   M /trunk/RiftAddon.toc
+
+force EnKai update to get more correct remaining time
+------------------------------------------------------------------------
+r325 | naifu | 2016-11-23 20:26:09 +0000 (Wed, 23 Nov 2016) | 2 lines
+Changed paths:
+   M /trunk/RiftAddon.toc
+   M /trunk/analyzer.lua
+   M /trunk/main.lua
+
+fixed analyzer not working properly
+fixed a lot of performance issues
+------------------------------------------------------------------------
+r323 | naifu | 2016-11-20 12:30:20 +0000 (Sun, 20 Nov 2016) | 2 lines
+Changed paths:
+   M /trunk/RiftAddon.toc
+   M /trunk/config/settings.lua
+   M /trunk/processing/buffHandler.lua
+
+fixed bug when editing sub set name
+fix for buffs being shown with negative run time
+------------------------------------------------------------------------
+r321 | naifu | 2016-10-30 14:56:09 +0000 (Sun, 30 Oct 2016) | 3 lines
+Changed paths:
+   M /trunk/RiftAddon.toc
+   M /trunk/analyzer.lua
+   M /trunk/config/trigger.lua
+   M /trunk/locales/localizationDE.lua
+   M /trunk/locales/localizationEN.lua
+   M /trunk/main.lua
+
+if a trigger ability is no longer supported the icon will be flagged
+it is now possible to replace an existing trigger by drag & drop a new trigger ability from the analyzer onto it
+some minor bug fixes
+------------------------------------------------------------------------

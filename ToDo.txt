@@ -1,0 +1,4 @@
+- combat log beim buffmanager bewusst ein / ausschalten
+- sharing funktion
+
+- am anfang werden player.target und focus nicht erkannt falls schon gesetzt

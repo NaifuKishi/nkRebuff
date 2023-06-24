@@ -1,0 +1,53 @@
+Identifier = "nkRebuff"
+Name = "Naifu's Rebuff Watcher"
+NameShort ="nkRebuff"
+Description = "nkRebuff is all you need to watch needed buffs, debuffs and cooldowns"
+
+Author = "Naifu"
+Email = "naifukishi@gmail.com"
+
+Version = "4.1.2"
+Environment = "4.0"
+
+RunOnStartup = {
+  "main.lua",
+  "analyzer.lua",
+  "config/config.lua",
+  "config/iconedit.lua",
+  "config/iconDefaults.lua",
+  "config/settings.lua",
+  "config/trigger.lua",
+  "config/exchange.lua",
+  "icons/icon.lua",  
+  "icons/iconRoutines.lua",
+  "icons/infoBlock.lua",
+  "processing/buffHandler.lua",
+  "processing/processing.lua",
+  "locales/localizationDE.lua",
+  "locales/localizationEN.lua",
+  "nkPanel-plugin.lua",
+}
+
+Embed = {
+  ["Libs/EnKai"] = true,
+}
+
+Dependencies = {
+  EnKai = {"required", "before"},
+  nkPanel = {"optional", "before"}
+}
+
+SavedVariables = {
+  nkRBConfig = "character",
+  nkRBSetMain = "character",
+  nkRBSetSub = "character",
+  nkRBCache = "character",
+  
+  nkRBSets = "character",
+  nkRBData = "character",
+  nkRBIcons = "character"
+}
+-- X-Curse-Packaged-Version: V4.1.2
+-- X-Curse-Project-Name: nkRebuff
+-- X-Curse-Project-ID: nkrebuff
+-- X-Curse-Repository-ID: rift/nkrebuff/mainline
